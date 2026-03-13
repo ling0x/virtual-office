@@ -1,0 +1,13 @@
+{
+  "name": "virtual-office-server",
+  "version": "1.0.0",
+  "description": "WebSocket server for Virtual Office",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "ws": "^8.17.0"
+  }
+}
